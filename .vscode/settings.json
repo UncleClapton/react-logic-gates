@@ -1,0 +1,66 @@
+{
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "stylelint.vscode-stylelint",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.stylelint": true
+    }
+  },
+  "blueprint.templatesPath": [
+    "./.vscode/blueprints"
+  ],
+  "css.validate": false,
+  "scss.validate": false,
+  "editor.insertSpaces": true,
+  "editor.rulers": [
+    180
+  ],
+  "editor.tabSize": 2,
+  "editor.wordWrapColumn": 180,
+  "eslint.lintTask.enable": true,
+  "eslint.packageManager": "yarn",
+  "files.associations": {
+    "*.js": "javascriptreact",
+    "*.mjs": "javascript",
+    ".all-contributorsrc": "json",
+    ".stylelintrc": "json",
+    "yarn.lock": "yaml"
+  },
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "html.format.wrapLineLength": 180,
+  "javascript.suggest.paths": true,
+  "less.validate": false,
+  "path-autocomplete.enableFolderTrailingSlash": false,
+  "path-autocomplete.excludedItems": {
+    "!**/*.scss": {
+      "when": "**"
+    }
+  },
+  "path-autocomplete.extensionOnImport": true,
+  "path-autocomplete.ignoredFilesPattern": "!**/*.{js,mjs}",
+  "path-autocomplete.pathMappings": {
+    "~": "${folder}/src"
+  },
+  "search.exclude": {
+    "**/dist": true,
+    "**/.yarn": true,
+    "**/.pnp.*": true
+  },
+  "stylelint.packageManager": "yarn",
+  "stylelint.reportNeedlessDisables": true,
+  "cSpell.language": "en,en-US",
+}
